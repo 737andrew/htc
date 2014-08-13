@@ -9,7 +9,7 @@
     <title>Шаблон статей</title>
 
 <?php include("construct/head.php"); ?>
-<?php include("construct/autor.php"); ?>
+<?php include("construct/author.php"); ?>
 
 </head>
 
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <!-- the actual blog post: title/author/date/content -->
-                <p><i class="fa fa-clock-o"></i> Posted on August 24, 2013 at 9:00 PM by <?php echo $autor ?>
+                <p><i class="fa fa-clock-o"></i> Posted on August 24, 2013 at 9:00 PM by <?php echo $author ?>
                 </p>
                 <hr>
                 <!--page-->
@@ -104,7 +104,7 @@
                 	<hr>
                 	           <?php include("construct/google.php"); ?>
 			</div>
-
+</div>
             <div class="col-lg-4">
                 <div class="well">
                     <h4>Следуй за нами</h4>
@@ -115,16 +115,7 @@
                 <div class="span4 side_bar">
                         <section style="padding-top: 0px" class="blog_cat" >
                             <div class="well">
-                               	<div class="side_bar_widget">
-<h4><span class="colored">///</span> Топ статей</h4>
-    <hr>                                 
-        <ul>  	
-        <li><a href="arca.php">Делаем арку из гипсокартона</a></li>
-        <li><a href="http://montagnik.od.ua/potolki.html">Потолки из гипсокартона</a></li>                                
-        <li><a href="http://montagnik.od.ua/stena.html">Стены из гипсокартона</a></li> 
-        <li><a href="http://montagnik.od.ua/svoystva.html">Свойства гипсокартона</a></li>                                                                
-		</ul>							                               
-	</div>				
+                               		<?php include ("construct/sidebar.php"); ?>		
 								<div class="side_bar_widget">
 <h4><span class="colored">///</span> Свежие записи</h4>
  <hr>  
