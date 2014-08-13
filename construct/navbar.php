@@ -16,9 +16,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="about.html">О Нас</a>
                     </li>
-                    <li><a href="services.html">Services</a>
-                    </li>
-                    <li><a href="contact.php">Contact</a>
+                    <li><a href="praice.php">Прайс</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
@@ -60,6 +58,8 @@
                             <li><a href="pricing.html">Pricing Table</a>
                             </li>
                         </ul>
+                    </li>
+                    <li><a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

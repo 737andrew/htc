@@ -24,8 +24,8 @@
         <div class="col-lg-12">
           <h1 class="page-header">Контакты <small>Мы рады услышать Вас!</small></h1>
           <ol class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li class="active">Contact</li>
+            <li><a href="index.php">Home</a></li>
+            <li class="active">Контакты</li>
           </ol>
         </div>
         
@@ -87,12 +87,7 @@
 		  <p><i class="fa fa-phone"></i> <abbr title="Phone">тел</abbr>: +38 099 251-41 16</p>
           <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:gips@montagnik.od.ua">gips@montagnik.od.ua</a></p>
           
-          <ul class="list-unstyled list-inline list-social-icons">
-            <li class="tooltip-social facebook-link"><a href="#facebook-page" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-            <li class="tooltip-social linkedin-link"><a href="#linkedin-company-page" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-            <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-            <li class="tooltip-social google-plus-link"><a href="#google-plus-page" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-          </ul>
+          <?php include("construct/social.php"); ?>
         </div>
 
       </div><!-- /.row -->
