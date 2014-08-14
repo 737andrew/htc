@@ -7,4 +7,4 @@
         <li><a href="http://montagnik.od.ua/stena.html">Стены из гипсокартона</a></li> 
         <li><a href="http://montagnik.od.ua/svoystva.html">Свойства гипсокартона</a></li>                                                                
 		</ul>							                               
-	</div>wpeiythfebv, V.M
+	</div>

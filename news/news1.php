@@ -34,13 +34,12 @@
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <!-- the actual blog post: title/author/date/content -->
                 
                 <hr>
                 <!--page-->
 
 
-                <h1><a href="http://htc/news/temp2news.php">A Blog Home Template for Bootstrap 3</a>
+                <h1><a href="blog-post.html">A Blog Home Template for Bootstrap 3</a>
                 </h1>
                 <hr>
                 <p><i class="fa fa-clock-o"></i> Posted on August 28, 2013 at 10:00 PM</p>

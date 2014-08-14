@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <META NAME="DESCRIPTION" CONTENT="монтаж гипсокартона, как осуществляеться данны процесс? Как его реализовывать? Эти и другие вопрсоы будут рассмотренны в нашей статье">
-    <meta name="author" content="">
+    <meta name="description" content="Полезные статьи.Делаем ремонт своими руками">
+    <title>Полезные статьи | ремонт своими руками</title>
 
-    <title>Монтаж гипсокартона</title>
-
-<?php include("construct/head.php"); ?>
-<?php include("construct/author.php"); ?>
-
+<?php include("../construct/head.php"); ?>
+<?php include("../construct/author.php"); ?>
 </head>
 
 <body>
 
-    <?php include("construct/navbar.php"); ?>
+    <?php include("../construct/navbar.php"); ?>
 
     <div class="container">
 	<div class="row">
 
             <div class="col-lg-12">
-                <h1 class="page-header"><h1>Монтаж
-                    <small>гипсокартона</small>
+                <h1 class="page-header"><h1>Полезные статьи
+                    <small>ремонт своими руками</small>
                 </h1>
-				<br>
                 <ol class="breadcrumb">
      <li><?php echo $crumb ?>
      </li>
-	 <li><?php echo $montag ?>
+	 <li><?php echo $remont ?>
      </li>
      <li class="active">Статьи</li>
  </ol>
@@ -37,32 +34,31 @@
         <div class="row">
             <div class="col-lg-8">
                 <!-- the actual blog post: title/author/date/content -->
-                <p><i class="fa fa-clock-o"></i> Posted on August 24, 2013 at 9:00 PM by <?php echo $author ?>
+                <p><i class="fa fa-clock-o"></i> Posted on August 24, 2013 <?php echo $author ?>
                 </p>
                 <hr>
                 <!--page-->
 
                 
                 	<hr>
-                	           <?php include("construct/google.php"); ?>
+                	           <?php include("../construct/google.php"); ?>
 			</div>
-</div>
+
             <div class="col-lg-4">
                 <div class="well">
                     <h4>Следуй за нами</h4>
-                    <?php include ("construct/social.php"); ?>
+                    <?php include ("../construct/social.php"); ?>
                     <!-- /input-group -->
                 </div>
                 <!-- /well -->
                 <div class="span4 side_bar">
                         <section style="padding-top: 0px" class="blog_cat" >
                             <div class="well">
-                               		<?php include ("construct/sidebar.php"); ?>		
-								<?php include ("construct/cat.php"); ?>	
+                               		<?php include ("../construct/sidebar.php"); ?>		
+									<?php include ("../construct/cat.php"); ?>
 <div class="side_bar_widget"><h4><span class="colored">///</span> Интересное в сети</h4> <hr>
 				<ul>
 				<!--s_links--><!--/s_links--><br>
-
 				</ul>
 			</div> 
               </div>
@@ -84,9 +80,8 @@
     </div>
     <!-- /.container -->
 
-<?php include ("construct/java.php"); ?>
+<?php include ("../construct/java.php"); ?>
 
 </body>
 
 </html>
-
